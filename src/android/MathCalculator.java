@@ -25,7 +25,7 @@ public class MathCalculator extends CordovaPlugin {
         return false;
     }
 
-    private void add(JSONArray args, CallbackContext callbackContext) {
+    private void add(JSONArray args, CallbackContext callback) {
         if(args != null)
         {
             try
@@ -46,7 +46,7 @@ public class MathCalculator extends CordovaPlugin {
         }
     }
 
-    private void substract(JSONArray args, CallbackContext callbackContext) {
+    private void substract(JSONArray args, CallbackContext callback) {
         if(args != null)
         {
             try
